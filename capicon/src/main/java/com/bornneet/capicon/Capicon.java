@@ -11,7 +11,7 @@ import android.graphics.Typeface;
  * Created by tnantoka on 8/11/16.
  */
 public class Capicon {
-    static class Colors {
+    public static class Colors {
         static int RED = Color.parseColor("#f44336");
         static int PING = Color.parseColor("#e91e63");
         static int PURPLE = Color.parseColor("#9c27b0");
@@ -37,12 +37,13 @@ public class Capicon {
 
     int width;
     int height;
-    int backgroundColor = Colors.INDIGO;
-    int textColor = Colors.WHITE;
-    String string = "";
-    Typeface typeface = Typeface.DEFAULT;
-    float textScale = 0.7f;
-//    float roundScale = 0.0f;
+
+    public int backgroundColor = Colors.INDIGO;
+    public int textColor = Colors.WHITE;
+    public String string = "";
+    public Typeface typeface = Typeface.DEFAULT;
+    public float textScale = 0.7f;
+//    public float roundScale = 0.0f;
 
     private Paint paint = new Paint();
 
