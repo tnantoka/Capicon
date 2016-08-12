@@ -3,10 +3,11 @@
   <groupId>com.bornneet.capicon</groupId>
   <artifactId>capicon</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0.1</release>
     <versions>
       <version>1.0.0</version>
+      <version>1.0.1</version>
     </versions>
-    <lastUpdated>20160811135015</lastUpdated>
+    <lastUpdated>20160812135846</lastUpdated>
   </versioning>
 </metadata>

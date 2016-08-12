@@ -1,0 +1,4 @@
+```
+$ ./gradlew assembleRelease
+$ ./gradlew uploadArchives
+```
