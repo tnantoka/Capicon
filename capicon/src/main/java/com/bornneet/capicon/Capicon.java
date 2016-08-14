@@ -12,27 +12,27 @@ import android.graphics.Typeface;
  */
 public class Capicon {
     public static class Colors {
-        static int RED = Color.parseColor("#f44336");
-        static int PING = Color.parseColor("#e91e63");
-        static int PURPLE = Color.parseColor("#9c27b0");
-        static int DEEP_PURPLE = Color.parseColor("#673ab7");
-        static int INDIGO = Color.parseColor("#3f51b5");
-        static int BLUE = Color.parseColor("#2196f3");
-        static int LIGHT_BLUE = Color.parseColor("#03a9f4");
-        static int CYAN = Color.parseColor("#00bcd4");
-        static int TEAL = Color.parseColor("#009688");
-        static int GREEN = Color.parseColor("#4caf50");
-        static int LIGHT_GREEN = Color.parseColor("#8bc34a");
-        static int LIME = Color.parseColor("#cddc39");
-        static int YELLOW = Color.parseColor("#ffeb3b");
-        static int AMBER = Color.parseColor("#ffc107");
-        static int ORANGE = Color.parseColor("#ff9800");
-        static int DEEP_ORANGE = Color.parseColor("#ff5722");
-        static int BROWS = Color.parseColor("#795548");
-        static int GREY = Color.parseColor("#9e9e9e");
-        static int BLUE_GREY = Color.parseColor("#607d8b");
-        static int BLACK = Color.parseColor("#000000");
-        static int WHITE = Color.parseColor("#ffffff");
+        public static int RED = Color.parseColor("#f44336");
+        public static int PINK = Color.parseColor("#e91e63");
+        public static int PURPLE = Color.parseColor("#9c27b0");
+        public static int DEEP_PURPLE = Color.parseColor("#673ab7");
+        public static int INDIGO = Color.parseColor("#3f51b5");
+        public static int BLUE = Color.parseColor("#2196f3");
+        public static int LIGHT_BLUE = Color.parseColor("#03a9f4");
+        public static int CYAN = Color.parseColor("#00bcd4");
+        public static int TEAL = Color.parseColor("#009688");
+        public static int GREEN = Color.parseColor("#4caf50");
+        public static int LIGHT_GREEN = Color.parseColor("#8bc34a");
+        public static int LIME = Color.parseColor("#cddc39");
+        public static int YELLOW = Color.parseColor("#ffeb3b");
+        public static int AMBER = Color.parseColor("#ffc107");
+        public static int ORANGE = Color.parseColor("#ff9800");
+        public static int DEEP_ORANGE = Color.parseColor("#ff5722");
+        public static int BROWN = Color.parseColor("#795548");
+        public static int GREY = Color.parseColor("#9e9e9e");
+        public static int BLUE_GREY = Color.parseColor("#607d8b");
+        public static int BLACK = Color.parseColor("#000000");
+        public static int WHITE = Color.parseColor("#ffffff");
     }
 
     int width;
