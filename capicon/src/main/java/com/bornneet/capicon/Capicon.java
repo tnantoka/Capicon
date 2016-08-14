@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.Typeface;
+import android.os.Build;
 
 /**
  * Created by tnantoka on 8/11/16.
@@ -43,7 +44,7 @@ public class Capicon {
     public String string = "";
     public Typeface typeface = Typeface.DEFAULT;
     public float textScale = 0.7f;
-//    public float roundScale = 0.0f;
+    public float roundScale = 0.0f;
 
     private Paint paint = new Paint();
 
@@ -62,8 +63,12 @@ public class Capicon {
         Canvas canvas = new Canvas(bitmap);
 
         paint.setColor(backgroundColor);
-        canvas.drawRect(0, 0, width, height, paint);
-//        canvas.drawRoundRect(0, 0, width, height, width * roundScale, height * roundScale, paint);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            canvas.drawRoundRect(0, 0, width, height, width * roundScale, height * roundScale, paint);
+        } else {
+            canvas.drawRect(0, 0, width, height, paint);
+        }
 
         paint.setAntiAlias(true);
         paint.setTextAlign(Paint.Align.CENTER);
